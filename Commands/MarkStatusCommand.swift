@@ -1,6 +1,6 @@
 //
 //  MarkStatusCommand.swift
-//  Evergreen
+//  NetNewsWire
 //
 //  Created by Brent Simmons on 10/26/17.
 //  Copyright © 2017 Ranchero Software. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 import RSCore
-import Data
+import Articles
 
 // Mark articles read/unread, starred/unstarred, deleted/undeleted.
 

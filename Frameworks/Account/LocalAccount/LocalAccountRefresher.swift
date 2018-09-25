@@ -10,7 +10,7 @@ import Foundation
 import RSCore
 import RSParser
 import RSWeb
-import Data
+import Articles
 
 final class LocalAccountRefresher {
 	
@@ -80,7 +80,6 @@ extension LocalAccountRefresher: DownloadSessionDelegate {
 				}
 				
 				feed.contentHash = dataHash
-				feed.account?.dirty = true
 			}
 		}
 	}

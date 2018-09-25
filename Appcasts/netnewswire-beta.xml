@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>NetNewsWire Betas</title>
+        <link>https://ranchero.com/downloads/netnewswire-beta.xml</link>
+        <description>Most recent NetNewsWire changes with links to updates.</description>
+        <language>en</language>
+
+	<item>
+          <title>NetNewsWire 5.0d6</title>
+            <description><![CDATA[
+            
+            <p>Supports Mojave dark mode in the detail view, which should complete dark mode support.</p>
+            <p>Sidebar: feed and folder names can be edited inline.</p>
+
+    						]]></description>
+            <pubDate>Mon, 10 Sep 2018 13:15:00 -0800</pubDate>
+            <enclosure url="https://ranchero.com/downloads/NetNewsWire5.0d6.zip" sparkle:version="1272" sparkle:shortVersionString="5.0d6" length="7805208" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>
+
+	<item>
+          <title>NetNewsWire 5.0d5</title>
+            <description><![CDATA[
+            
+            <p>Major bandwidth-use bug fixed — sometimes it would request the home page of a site multiple times all at once. Now it just does one request.</p>
+            <p>Sharing: lightboxed the share sheet.</p>
+            <p>Sharing: added subject to Mail message.</p>
+
+    						]]></description>
+            <pubDate>Sun, 09 Sep 2018 12:30:00 -0800</pubDate>
+            <enclosure url="https://ranchero.com/downloads/NetNewsWire5.0d5.zip" sparkle:version="1267" sparkle:shortVersionString="5.0d5" length="7742716" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>
+
+	<item>
+          <title>NetNewsWire 5.0d3</title>
+            <description><![CDATA[
+            
+            <p>Fixed appearance of timeline cell when highlighted (in High Sierra) — text now turns white, as expected.</p>
+            <p>Reduced size of download by several MB by not including Swift libraries in Safari extension.</p>
+            <p>Made the Safari extension preserve https scheme, for better security.</p>
+            <p>Added Share submenu to timeline contextual menu.</p>
+            <p>Detail view doesn’t make date a link when it would be to the same URL as the title link.</p>
+            
+    						]]></description>
+            <pubDate>Tue, 04 Sep 2018 21:00:00 -0800</pubDate>
+            <enclosure url="https://ranchero.com/downloads/NetNewsWire5.0d3.zip" sparkle:version="1241" sparkle:shortVersionString="5.0d3" length="7730920" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>
+
+	<item>
+          <title>NetNewsWire 5.0d2</title>
+            <description><![CDATA[
+            
+            <p>Fixed a performance issue when fetching articles — it’s much faster now. You’ll especially notice when you select something with hundreds of articles.</p>
+            <p>Handle bad home page URLs in a feed. (AppleInsider, for instance.)</p>
+            <p>Allow .xml as an extension when importing an OPML file.</p>
+            <p>Hide cursor when paging via the space bar.</p>
+    						]]></description>
+            <pubDate>Sun, 02 Sep 2018 12:30:00 -0800</pubDate>
+            <enclosure url="https://ranchero.com/downloads/NetNewsWire5.0d2.zip" sparkle:version="1225" sparkle:shortVersionString="5.0d2" length="11322264" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>
+
+	
+
+    </channel>
+</rss>
